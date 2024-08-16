@@ -1,0 +1,59 @@
+/*style sheet for headear body and footer*/
+body{
+background-color: #DAD3BE;
+padding: 40px;
+}
+
+h1{
+text-align: center;
+color: #254336;
+padding: 50px;
+}
+h2{
+color: #6B8A7A;
+}
+p{
+color: #4F6F52;
+}
+
+footer{
+  text-align: center;
+  color: #254336;
+  padding: 50px;
+}
+
+/*code for button stylesheet and button hover*/
+.button {
+  background: #3498db;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 12px 10px 12px;
+}
+
+.button:hover {
+  background: #3cfaf4;
+}
+
+/* media query*/
+@media screen and (max-width: 768px) {
+body {
+  background-color: #E7F0DC;
+}
+h1{
+  text-align: center;
+  color: #729762;
+}
+h2{
+  color: #658147;
+}
+p{
+  color: #597445;
+}
+footer{
+  text-align: center;
+  padding: 10px 15px;
+  color: #729762;
+}
+}
